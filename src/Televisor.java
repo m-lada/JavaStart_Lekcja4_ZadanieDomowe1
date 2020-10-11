@@ -1,19 +1,15 @@
 public class Televisor {
     boolean isWorking;
 
-    public Televisor() {
-        this.isWorking = false;
+    void turnOn() {
+        isWorking = true;
     }
 
-    boolean turnOn() {
-        return isWorking = true;
+    void turnOff() {
+        isWorking = false;
     }
 
-    boolean turnOff() {
-        return isWorking = false;
-    }
-
-    boolean showStatus(){
+    boolean showStatus() {
         return isWorking;
     }
 }
